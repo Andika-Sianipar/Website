@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Aritmatika</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalkulator Aritmatika Sederhana</h1>
+    <p>By: Andika Kurniawan Sianipar (2215101011)</p>
+    
+    <!-- Form untuk input variabel -->
+    <form id="calculator-form">
+        <label for="operation">Pilih Operasi:</label>
+        <select id="operation" name="operation">
+            <option value="fibonacci">Deret Fibonacci</option>
+            <option value="kubus">Kubus</option>
+            <option value="balok">Balok</option>
+            <option value="tabung">Tabung</option>
+            <option value="kerucut">Kerucut</option>
+            <option value="limas_tiga">Limas Segi Tiga</option>
+            <option value="limas_empat">Limas Segi Empat</option>
+            <option value="bola">Bola</option>
+            <option value="prisma">Prisma</option>
+        </select>
+        
+        <div id="input-fields"></div>
+        
+        <button type="button" id="calculate-button">Hitung</button>
+    </form>
+    
+    <!-- Hasil perhitungan -->
+    <div id="result"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
