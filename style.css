@@ -62,12 +62,11 @@ button:hover {
 #result {
     overflow: auto; /* Untuk mengaktifkan overflow scroll jika dibutuhkan */
     white-space: pre-wrap; /* Untuk mempertahankan baris-baris baru dalam teks */
+    margin: 20px auto;
+    max-width: 400px;
     max-height: 300px; /* Atur ketinggian maksimum sesuai kebutuhan Anda */
-    border: 1px solid #ccc; /* Contoh: tambahkan border agar tampilan lebih jelas */
+    border: 2px solid #ccc; /* Contoh: tambahkan border agar tampilan lebih jelas */
     padding: 10px; /* Contoh: tambahkan padding agar lebih terlihat */
-}
-
-#result {
     margin-top: 20px;
     font-size: 20px;
 }
