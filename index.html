@@ -14,16 +14,19 @@
     <form id="form">
         <label for="operation">Pilih Operasi:</label>
         <select id="operation" name="operation">
-            <option value="fibonacci">Deret Fibonacci</option>
-            <option value="kubus">Kubus</option>
-            <option value="balok">Balok</option>
-            <option value="tabung">Tabung</option>
-            <option value="kerucut">Kerucut</option>
-            <option value="limas_tiga">Limas Segi Tiga</option>
-            <option value="limas_empat">Limas Segi Empat</option>
-            <option value="bola">Bola</option>
-            <option value="prisma">Prisma</option>
+                <option value="" disabled selected style="text-align: center;">select</option>
+                <option value="fibonacci">Deret Fibonacci</option>
+                <option value="kubus">Kubus</option>
+                <option value="balok">Balok</option>
+                <option value="tabung">Tabung</option>
+                <option value="kerucut">Kerucut</option>
+                <option value="limas_tiga">Limas Segi Tiga</option>
+                <option value="limas_empat">Limas Segi Empat</option>
+                <option value="bola">Bola</option>
+                <option value="prisma">Prisma</option>
+       
         </select>
+        
         
         <div id="input-fields"></div>
         
@@ -31,6 +34,7 @@
     </form>
     
     <!-- Hasil perhitungan -->
+    <h3>Hasil:</h3>
     <div id="result"></div>
     
     <script src="script.js"></script>
