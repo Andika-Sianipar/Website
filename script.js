@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // Menampilkan hasil perhitungan
-        resultDiv.textContent = `Hasil: ${result}`;
+        resultDiv.textContent = `${result}`;
     });
 
     // Menambahkan event listener untuk mengubah input-fields berdasarkan pilihan operasi
